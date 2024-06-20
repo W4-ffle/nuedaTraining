@@ -15,5 +15,9 @@ public class Main {
         }
     }
 }
+<<<<<<< HEAD
 // comment
 //Hello guys!
+=======
+// hello, i am testing this
+>>>>>>> 352e9b6ee135dda5a5c3f2b500cc0560350a28a4
