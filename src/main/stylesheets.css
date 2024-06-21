@@ -1,0 +1,93 @@
+
+/*Links*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #262626;
+}
+
+a:active{
+background-color: #262626;
+}
+
+.titlecss{
+list-style-type: none;
+text-decoration: none;
+color: black;
+
+}
+
+
+
+/*Overall*/
+body{
+background-color: #A6A6A6;
+}
+
+.title {
+text-align: center;
+padding: 25px 0px 25px 0px;
+
+}
+
+.title:hover{
+transform: scale(1.2);
+transition: transform .2s;
+}
+
+/*Main page boxes*/
+
+.imgbox{
+display: block;
+margin: 20px 5px
+width: 50%;
+float: left;
+padding: 5px;
+background-color:#F2F2F2 ;
+border-radius: 10px;
+text-align: center;
+transition: .5s ease;
+}
+.imgbox:hover{
+    transform: scale(0.9);
+}
+
+  .container {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .imgbox {
+    width: 100%;
+  }
+}
+
