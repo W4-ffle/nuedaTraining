@@ -13,7 +13,7 @@ public class BankAccountService {
     public BankAccountService() {
         accounts.add(new BankAccount("Callum", "Citi Bank, Belfast", 500.0));
         accounts.add(new BankAccount("Barry", "HolyLands, Belfast", 1500.0));
-        accounts.add(new BankAccount("Lucas", "Citi, Belfast", 2500.0));
+        accounts.add(new BankAccount("Lukas", "Citi, Belfast", 2500.0));
     }
 
     // Method to retrieve all bank accounts

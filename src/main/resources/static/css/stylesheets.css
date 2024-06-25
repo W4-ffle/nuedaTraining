@@ -109,6 +109,36 @@ display: flex;
              transition: .5s ease;
              }
 
+
+             /*Table*/
+             .tablebox {
+                        width: 60%;
+                        background-color: white;
+                        margin: 0 auto ;
+                       margin-top: 25px;
+                       border-radius: 10px;
+                    }
+
+                    table, td, th {
+                        border: 1px solid black;
+
+                    }
+
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+
+                    }
+
+                    th, td {
+                        height: 70px;
+                    }
+
+                    th{
+                    background-color: lightgreen;
+                    font-size: 20px;
+                    }
+
 /* Responsive layout */
 @media screen and (max-width: 600px) {
   .container {
