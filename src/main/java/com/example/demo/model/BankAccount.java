@@ -3,18 +3,18 @@ package com.example.demo.model;
 public class BankAccount {
     private String name;
     private String address;
-    private double currentBalance;
+    private double balance;
 
     public BankAccount(String name, String address) {
         this.name = name;
         this.address = address;
-        this.currentBalance = 0.0; // Default initial balance
+        this.balance = 0.0; // Default initial balance
     }
 
-    public BankAccount(String name, String address, double currentBalance) {
+    public BankAccount(String name, String address, double balance) {
         this.name = name;
         this.address = address;
-        this.currentBalance = currentBalance;
+        this.balance = balance;
     }
 
     public String getName() {
@@ -33,12 +33,12 @@ public class BankAccount {
         this.address = address;
     }
 
-    public double getCurrentBalance() {
-        return currentBalance;
+    public double getBalance() {
+        return balance;
     }
 
-    public void setCurrentBalance(double currentBalance) {
-        this.currentBalance = currentBalance;
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 
     @Override
